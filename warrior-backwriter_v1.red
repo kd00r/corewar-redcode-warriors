@@ -4,6 +4,6 @@
 ;strategy writing backwards hoping to corrupt forward-executing programs. Fails miserably at this exact task, however.
 ORG 0;
 
-mov 2, -1
-sub #1, -1
-jmp -2
+mov 2, -1;
+sub #1, -1;
+jmp -2;
